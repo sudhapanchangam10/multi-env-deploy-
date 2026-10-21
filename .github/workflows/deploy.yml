@@ -75,3 +75,6 @@ jobs:
 
           ssh -i ~/.ssh/deploy_key $DEPLOY_USER@$DEPLOY_HOST "ls -la $DEPLOY_PATH"
           echo "✅ Deployment verified!"
+
+
+          
